@@ -9,7 +9,7 @@ Através da engenharia de dados e da criação de modelos preditivos e de classi
 
 Esta diretoria está dividida em dois laboratórios práticos, cada um focado num conjunto específico de algoritmos e problemas de cibersegurança:
 
-### 1. [Supervised-Learning-Network-Traffic](./Supervised-Learning-Network-Traffic/README.md)
+### 1. [Supervised Learning for Network Traffic Analysis](./Supervised-Learning-Network-Traffic/README.md)
 Focado na análise de pacotes e deteção de intrusões de rede em tempo real.
 * **Técnicas utilizadas:** Regressão Logística (*Logistic Regression*) e Máquinas de Vetores de Suporte (*Support Vector Machines - SVM* com kernel RBF).
 * **Casos de Uso:**
@@ -17,13 +17,12 @@ Focado na análise de pacotes e deteção de intrusões de rede em tempo real.
   * Simulação de um painel de monitorização SOC (*Live Dashboard*) com geração de alertas baseados em níveis de confiança.
   * Classificação complexa de pacotes individuais (Benigno vs. Malicioso) e análise rigorosa de falsos negativos.
 
-### 2. [Supervised-ML-Cyber-Analytics](Supervised-ML-Cyber-Analytics/README.md)
+### 2. [Supervised ML for Cyber Analytics](./Supervised-ML-Cyber-Analytics/README.md)
 Orientado para a modelação de risco, previsão de impactos e análise estática de ficheiros.
 * **Técnicas utilizadas:** Regressão Linear multivariável (*Linear Regression*) e Árvores de Decisão (*Decision Trees*).
 * **Casos de Uso:**
   * Quantificação matemática do risco e previsão da severidade de *data breaches* com base na duração do ataque e vulnerabilidade do sistema.
   * Automação da análise estática de *malware*, classificando ficheiros de forma interpretável (Explainable AI) através da análise de entropia, permissões e *imports*.
-
 ## 🛠️ Tecnologias e Ferramentas
 
 Todo o código e análise de dados foram desenvolvidos utilizando o ecossistema padrão de Ciência de Dados em Python:
